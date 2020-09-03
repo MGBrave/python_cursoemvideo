@@ -1,8 +1,12 @@
-#Exercício Python 3: Crie um programa que leia dois números e mostre a soma entre eles.
-n1 = int(input('Digite um número: '))
-n2 = int(input('Digite outro número: '))
-s = n1 + n2
-print('A soma entre {} e {} é igual a {}.'.format(n1, n2, s))
-
-
+#Exercício Python 4: Faça um programa que leia algo pelo teclado e mostre na tela o seu tipo primitivo e todas as informações possíveis sobre ele.
+#métodos
+a = input('Digite algo: ')
+print('O tipo primitivo desse valor é: ', type(a))
+print('Só tem espaços? ', a.isspace())
+print('É um número? ', a.isnumeric())
+print('É alfabético? ', a.isalpha())
+print('Está em maiúscula? ', a.isupper())
+print('Está em minúscula? ', a.islower())
+print('É um número ou um nome? ',a.isalnum())
+print('Está capitalizada? ', a.istitle())#nem maiúsculas nem minúsculas
 
